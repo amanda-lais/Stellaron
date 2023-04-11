@@ -40,6 +40,8 @@ class GrafoMatriz:
     def insere_v(self):
         self.n += 1
         if self.rotulado:
+            for linha in self.adj:
+                linha.append(math.inf)
             self.adj.append([math.inf for i in range(self.n)])
         else:
             self.adj.append([0 for i in range(self.n)])
@@ -149,6 +151,8 @@ class TGrafoND:
     def insere_v(self):
         self.n += 1
         if self.rotulado:
+            for linha in self.adj:
+                linha.append(math.inf)
             self.adj.append([math.inf for i in range(self.n)])
         else:
             self.adj.append([0 for i in range(self.n)])
@@ -209,7 +213,8 @@ class TGrafoND:
             return 1
         return 0
 
-    def is_simetrico(self) -> int:
+    @staticmethod
+    def is_simetrico() -> int:
         return 1
 
     def remover(self, v: int) -> int:

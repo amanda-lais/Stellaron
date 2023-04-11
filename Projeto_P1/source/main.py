@@ -153,8 +153,9 @@ if __name__ == "__main__":
     while True:
         if type(retorno) == TGrafoND or type(retorno) == GrafoMatriz:
             grafo_existe = True
+            grafo = retorno
         if grafo_existe:
-            retorno = menu(retorno)
+            retorno = menu(grafo)
         else:
             retorno = menu()
 
