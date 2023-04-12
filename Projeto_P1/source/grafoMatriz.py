@@ -174,16 +174,28 @@ class TGrafoND:
             self.m -= 1
 
     def show(self):
-        print(f"\n n: {self.n:2d} ", end="")
-        print(f"m: {self.m:2d}\n")
-        for i in range(self.n):
-            for w in range(self.n):
-                if self.adj[i][w] == 1:
-                    print(f"Adj[{i:2d},{w:2d}] = 1 ", end="")
-                else:
-                    print(f"Adj[{i:2d},{w:2d}] = 0 ", end="")
-            print("\n")
-        print("\nfim da impressao do grafo.")
+        if self.rotulado:
+            print(f"\n n: {self.n:2d} ", end="")
+            print(f"m: {self.m:2d}\n")
+            for i in range(self.n):
+                for w in range(self.n):
+                    if self.adj[i][w] != math.inf:
+                        print(f"Adj[{i:2d},{w:2d}] = ", self.adj[i][w], end=" ")
+                    else:
+                        print(f"Adj[{i:2d},{w:2d}] = 0 ", end="")
+                print("\n")
+            print("\nfim da impressao do grafo.")
+        else:
+            print(f"\n n: {self.n:2d} ", end="")
+            print(f"m: {self.m:2d}\n")
+            for i in range(self.n):
+                for w in range(self.n):
+                    if self.adj[i][w] == 1:
+                        print(f"Adj[{i:2d},{w:2d}] = 1 ", end="")
+                    else:
+                        print(f"Adj[{i:2d},{w:2d}] = 0 ", end="")
+                print("\n")
+            print("\nfim da impressao do grafo.")
 
     def show_min(self):
         print(f"\n n: {self.n:2d} ", end="")
