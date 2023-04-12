@@ -18,32 +18,28 @@ def arq_grafo(n_aqr: str, tipo=0):
         # le as duas primeiras linhas para
         # definir o tipo (t) e a quantidade de vertices (n)
         # assim como quantidade de arestas (m)
-        t, n, m = arq.readline(), int(arq.readline()), int(arq.readline())
-
+        t, n, m = int(arq.readline()), int(arq.readline()), int(arq.readline())
         # Instancia o Grafo
-        if tipo == 0 and t == '0':
+        if tipo == 0 and t == 0:
             grafo = TGrafoND(n, False)
-        elif tipo == 0 and t == '1':
+        elif tipo == 0 and t == 1:
             grafo = TGrafoND(n, True)
-        elif tipo == 1 and t == '0':
+        elif tipo == 1 and t == 0:
             grafo = GrafoMatriz(n, False)
         else:
             grafo = GrafoMatriz(n, True)
-
         data = arq.readlines()
-
-    if t == '1':  # para os rotulados
+    arq.close()
+    if t == 1:  # para os rotulados
         for linha in data:
             v, w, valor = linha.split()
             v, w, valor = int(v), int(w), int(valor)
-            grafo.insere_a(v, w, valor)
-
-    if t == '0':  # para não rotulados
+            grafo.insere_a(v, w, valor)    
+    if t == 0:  # para não rotulados
         for linha in data:
             v, w = linha.split()
             v, w = int(v), int(w)
             grafo.insere_a(v, w)
-
     return grafo
 
 
