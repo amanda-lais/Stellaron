@@ -202,10 +202,16 @@ class TGrafoND:
         print(f"m: {self.m:2d}\n")
         for i in range(self.n):
             for w in range(self.n):
-                if self.adj[i][w] == 1:
-                    print(" 1 ", end="")
+                if self.rotulado:
+                    if self.adj[i][w] != math.inf:
+                        print(" ", self.adj[i][w], end=" ")
+                    else:
+                        print(" 0 ", end="")
                 else:
-                    print(" 0 ", end="")
+                    if self.adj[i][w] == 1:
+                        print(" 1 ", end="")
+                    else:
+                        print(" 0 ", end="")
             print("\n")
         print("\nfim da impressao do grafo.")
 
