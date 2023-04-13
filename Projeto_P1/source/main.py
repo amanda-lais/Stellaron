@@ -1,6 +1,7 @@
 from grafoMatriz import GrafoMatriz, TGrafoND
 from grafoLista import GrafoLista
 import time
+import os
 
 # GLOBALS -------------------------------------------------
 NOME_ARQ = "grafo.txt"
@@ -34,7 +35,7 @@ def arq_grafo(n_aqr: str, tipo=0):
         for linha in data:
             v, w, valor = linha.split()
             v, w, valor = int(v), int(w), int(valor)
-            grafo.insere_a(v, w, valor)    
+            grafo.insere_a(v, w, valor)
     if t == 0:  # para não rotulados
         for linha in data:
             v, w = linha.split()
@@ -59,10 +60,15 @@ def converter_ml(original: GrafoMatriz) -> GrafoLista:
 
 def saudacoes():
     print(" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* ")
+    time.sleep(0.3)
     print(" 00-----1- -- BEM VINDO -- ----1- 0- 0---* - ")
+    time.sleep(0.3)
     print(" ---||-, -PROJETO CALLISTO--- 8*)==-  - ---* ")
+    time.sleep(0.3)
     print(" -----4242--**& -- - -  - --00 --000  ** 9-( ")
+    time.sleep(0.3)
     print(" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* ")
+    time.sleep(0.3)
     print("\n")
 
 
@@ -83,77 +89,123 @@ def recebe() -> int:
     return int(input("| - Escolha uma das opções acima: "))
 
 
-# 1 -> grafo; 2 -> 1; 3 -> 1/-1; 4 -> 1/-1; 5 -> 1/-1
-def menu(grafo=None):
+def falha():
+    print("FALHA NA OPERAÇÃO!! - Grafo inexistente.")
+
+
+def sucesso():
+    print("SUCESSO NA OPERAÇÃO :D")
+
+
+def op1():
+    return str(input("Digite o nome do arquivo: "))
+
+
+def op2(grafo=None):
+    if not grafo:
+        return False
+    grafo_arq()
+    return True
+
+
+def op3(grafo=None):
+    if not grafo:
+        return False
+    v = int(input("Digite o número do vértice que se deseja adicionar: "))
+    while type(v) != int:
+        v = int(input("O número deve ser inteiro, digite novamente: "))
+    grafo.insere_v(v)
+    return grafo
+
+
+def op4(grafo=None):
+    if not grafo:
+        return False
+    v, w = int(input("Informe os vértices que serão interligados (Utilize de espaço para delimitar):\n"))
+    if grafo.rotulado:
+        p = float(input("Informe o custo da ligação (pode ser em ponto flutuante): "))
+        grafo.insere_a(v, w, p)
+        return grafo
+    grafo.insere_a(v, w)
+    return grafo
+
+
+def op5(grafo):
+    if not grafo:
+        return False
+    v = int(input("Informe qual vértice será removido: "))
+    grafo.remover(v)
+    return grafo
+
+
+def op6(grafo):
+    if not grafo:
+        return False
+    v, w = int(input("Informe qual ligação será removida: "))
+    grafo.remove_a(v, w)
+    return grafo
+
+
+def op7():
+    with open(op1()) as file:
+        print(file.read())
+
+
+def op8(grafo):
+    if not grafo:
+        return False
+    grafo.show()
+
+
+def menu():
+    grafo = None
     saudacoes()
-    show_opcoes()
-    escolha = recebe()
-    if escolha == 1:
-        nome_arq = str(input("Qual o nome do arquivo?  "))
-        return arq_grafo(nome_arq)
-    elif escolha == 2:
-        grafo_arq()
-        return 1
-    elif escolha == 3:
-        if not grafo:
-            print("ERROR Z_Z  --- Não há grafo existente")
-            return -1
-        grafo.insere_v()
-        return grafo
-    elif escolha == 4:
-        if not grafo:
-            print("ERROR Z_Z  --- Não há grafo existente")
-            return -1
-        print("Informe quais vértices serão ligados: ")
-        v, w = int(input())
-        if grafo.rotulado:
-            valor = float(input("Qual o peso desta ligação?   "))
-            grafo.insere_a(v, w, valor)
-        else:
-            grafo.insere_a(v, w)
-        return grafo
-    elif escolha == 5:
-        if not grafo:
-            print("ERROR Z_Z  --- Não há grafo existente")
-            return -1
-        v = int(input("Qual vértice será removido:  "))
-        grafo.remover(v)
-        return grafo
-    elif escolha == 6:
-        if not grafo:
-            print("ERROR Z_Z  --- Não há grafo existente")
-            return -1
-        v, w = int(input("Qual aresta será removida (informe um par):  "))
-        grafo.remove_a(v, w)
-        return grafo
-    elif escolha == 7:
-        print(" | A IMPRESSÃO DO ARQUIVO É COMO SE SEGUE | ")
-        with open(NOME_ARQ, 'r') as arq:
-            for line in arq:
-                print(f"{line}", end="")
-        return 1
-    elif escolha == 8:
-        if not grafo:
-            print("ERROR Z_Z  --- Não há grafo existente")
-            return -1
-        grafo.show_min()
-    elif escolha == 9:
-        print("Até mais, estrelinha -w-")
-        exit()
+    while True:
+        input("\n\n Precione qualquer tecla para continuar...")
+        os.system('cls')
+        show_opcoes()
+        escolha = recebe()
+        if escolha == 9:
+            print("Até mais, estrelinha *-*")
+            return True
+        elif escolha == 1:
+            grafo = arq_grafo(op1())
+            print("Grafo recuperado de um arquivo")
+        elif escolha == 2:
+            if not op2(grafo):
+                falha()
+                continue
+            sucesso()
+        elif escolha == 3:
+            if not grafo:
+                falha()
+                continue
+            grafo = op3(grafo)
+            sucesso()
+        elif escolha == 4:
+            if not grafo:
+                falha()
+                continue
+            grafo = op4(grafo)
+        elif escolha == 5:
+            if not grafo:
+                falha()
+                continue
+            grafo = op5(grafo)
+        elif escolha == 6:
+            if not grafo:
+                falha()
+                continue
+            grafo = op6(grafo)
+        elif escolha == 7:
+            op7()
+        elif escolha == 8:
+            if not grafo:
+                falha()
+                continue
+            op8(grafo)
 
 
 # MAIN ----------------------------------------------------
 if __name__ == "__main__":
-    retorno = menu()
-    grafo_existe = False
-    while True:
-        if type(retorno) == TGrafoND or type(retorno) == GrafoMatriz:
-            grafo_existe = True
-            grafo = retorno
-        if grafo_existe:
-            retorno = menu(grafo)
-        else:
-            retorno = menu()
-
-
-
+    menu()
