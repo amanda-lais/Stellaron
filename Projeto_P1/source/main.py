@@ -15,21 +15,26 @@ NOME_ARQ = "grafo.txt"
 # n -> quantidade de vértices
 # m -> quantidade de arestas
 def arq_grafo(n_aqr: str, tipo=0):
-    with open(n_aqr, 'r') as arq:
-        # le as duas primeiras linhas para
-        # definir o tipo (t) e a quantidade de vertices (n)
-        # assim como quantidade de arestas (m)
-        t, n, m = int(arq.readline()), int(arq.readline()), int(arq.readline())
-        # Instancia o Grafo
-        if tipo == 0 and t == 0:
-            grafo = TGrafoND(n, False)
-        elif tipo == 0 and t == 1:
-            grafo = TGrafoND(n, True)
-        elif tipo == 1 and t == 0:
-            grafo = GrafoMatriz(n, False)
-        else:
-            grafo = GrafoMatriz(n, True)
-        data = arq.readlines()
+
+    # le as duas primeiras linhas para
+    # definir o tipo (t) e a quantidade de vertices (n)
+    # assim como quantidade de arestas (m)
+    try:
+        arq = open(n_aqr, 'r')
+    except OSError:
+        print("O arquivo informado não existe !!")
+        return None
+    t, n, m = int(arq.readline()), int(arq.readline()), int(arq.readline())
+    # Instancia o Grafo
+    if tipo == 0 and t == 0:
+        grafo = TGrafoND(n, False)
+    elif tipo == 0 and t == 1:
+        grafo = TGrafoND(n, True)
+    elif tipo == 1 and t == 0:
+        grafo = GrafoMatriz(n, False)
+    else:
+        grafo = GrafoMatriz(n, True)
+    data = arq.readlines()
     arq.close()
     if t == 1:  # para os rotulados
         for linha in data:
@@ -170,7 +175,8 @@ def menu():
             return True
         elif escolha == 1:
             grafo = arq_grafo(op1())
-            print("Grafo recuperado de um arquivo")
+            if grafo:
+                print("Grafo recuperado de um arquivo")
         elif escolha == 2:
             if not op2(grafo):
                 falha()
