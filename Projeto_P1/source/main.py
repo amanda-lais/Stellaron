@@ -6,16 +6,14 @@ import os
 # GLOBALS -------------------------------------------------
 NOME_ARQ = "grafo.txt"
 
-
 # FUNÇÕES -------------------------------------------------
-
 # Lê o arquivo txt e cria um grafo definido pelo seu tipo
 # tipo -> se o grafo é orientado ou não
 # t -> se for 0 é sem peso, 1 é com peso
 # n -> quantidade de vértices
 # m -> quantidade de arestas
-def arq_grafo(n_aqr: str, tipo=0):
 
+def arq_grafo(n_aqr: str, tipo=0):
     # le as duas primeiras linhas para
     # definir o tipo (t) e a quantidade de vertices (n)
     # assim como quantidade de arestas (m)
@@ -116,10 +114,7 @@ def op2(grafo=None):
 def op3(grafo=None):
     if not grafo:
         return False
-    v = int(input("Digite o número do vértice que se deseja adicionar: "))
-    while type(v) != int:
-        v = int(input("O número deve ser inteiro, digite novamente: "))
-    grafo.insere_v(v)
+    grafo.insere_v(grafo)
     return grafo
 
 
@@ -210,7 +205,6 @@ def menu():
                 falha()
                 continue
             op8(grafo)
-
 
 # MAIN ----------------------------------------------------
 if __name__ == "__main__":
