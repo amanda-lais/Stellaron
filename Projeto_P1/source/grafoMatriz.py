@@ -133,6 +133,42 @@ class GrafoMatriz:
         else:
             return 0
 
+    @staticmethod
+    def visitar_no(no: int):
+        print(f"Estamos visitando o nó {no}")
+
+    @staticmethod
+    def marcar_no(marcados, no):
+        marcados.append(no)
+        return marcados
+
+    def no_adjacente(self, no, marcados):
+        adjs = self.adj[no]
+        for _ in range(self.n):
+            if (adjs[_] != 0 and adjs[_] != math.inf) and _ not in marcados:
+                return _
+        return -1
+
+    def nos_adjacentes(self, no, marcados):
+        return [index for index, valor in enumerate(self.adj[no]) if (valor != 0 and valor != math.inf) and marcados]
+
+    def percurso_profundidade(self, v_inicio):
+        marcados = []
+        p = Pilha()
+        self.visitar_no(v_inicio)
+        marcados = self.marcar_no(marcados, v_inicio)
+        p.push(v_inicio)
+        while not p.is_empty():
+            no_atual = p.pop()
+            no_seguinte = self.no_adjacente(no_atual, marcados)
+            while no_seguinte != -1:
+                self.visitar_no(no_seguinte)
+                p.push(no_atual)
+                self.marcar_no(marcados, no_seguinte)
+                no_atual = no_seguinte
+                no_seguinte = self.no_adjacente(no_seguinte, marcados)
+
+
 
 class TGrafoND:
     TAM_MAX_DEFAULT = 100
