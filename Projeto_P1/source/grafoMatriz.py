@@ -14,7 +14,6 @@ import math
 
 class GrafoMatriz:
     TAM_MAX_DEFAULT = 100  # qtde de vértices máxima default
-
     # construtor da classe grafo
     def __init__(self, n=TAM_MAX_DEFAULT, rotulado=False):
         self.n = n  # número de vértices
@@ -136,7 +135,6 @@ class GrafoMatriz:
 
 class TGrafoND:
     TAM_MAX_DEFAULT = 100
-
     def __init__(self, n=TAM_MAX_DEFAULT, rotulado=False):
         self.n = n
         self.m = 0
@@ -264,8 +262,9 @@ class TGrafoND:
             return 1
         else:
             return 0
+
+        
 class GrafoMatriz:
-    
 # para gravar no txt
     def to_str(self) -> str:
         s = f"{self.n} {self.rotulado}\n"
