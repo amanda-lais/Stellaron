@@ -46,10 +46,23 @@ def arq_grafo(n_aqr: str, tipo=0):
             grafo.insere_a(v, w)
     return grafo
 
+# for i in range(self.n):
+#             print(f"\n{i:2d}: ", end="")
+#             for w in range(len(self.listaAdj[i])):
+#                 val = self.listaAdj[i][w]
+#                 print(f"{val:2d}", end="")
 
-def grafo_arq(n_arq="grafo.txt"):
-    pass
 
+def grafo_arq(grafo):
+    arq = open("grafo.txt", 'w') 
+    arq.write("1\n")
+    arq.write(str(grafo.n)) #vértices
+    arq.write(str(grafo.m)) #arestas
+    for i in range(grafo.n):
+        for x in range(grafo.n):
+            if grafo.adj[i][x] != math.inf:
+                arq.write("{str(i)} {str(x)} {str(grafo.adj[i][x]})\n")
+    arq.close()
 
 def converter_ml(original: GrafoMatriz) -> GrafoLista:
     gl = GrafoLista(original.n)
@@ -62,16 +75,16 @@ def converter_ml(original: GrafoMatriz) -> GrafoLista:
 
 
 def saudacoes():
-    print(" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* ")
-    time.sleep(0.3)
-    print(" 00-----1- -- BEM VINDO -- ----1- 0- 0---* - ")
-    time.sleep(0.3)
-    print(" ---||-, -PROJETO CALLISTO--- 8*)==-  - ---* ")
-    time.sleep(0.3)
-    print(" -----4242--**& -- - -  - --00 --000  ** 9-( ")
-    time.sleep(0.3)
-    print(" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* ")
-    time.sleep(0.3)
+    print("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-")
+    #time.sleep(0.3)
+    print("-*-*-*-*-*-*-*BEM VINDO*-*-*-*-*-*-*-*-*-*-*-")
+    #time.sleep(0.3)
+    print("*-*-*-*-*-PROJETO CALLISTO*-*-*-*-*-*-*-*-*-*")
+    #time.sleep(0.3)
+    print("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+    #time.sleep(0.3)
+    print("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
+    #time.sleep(0.3)
     print("\n")
 
 
@@ -85,7 +98,7 @@ def show_opcoes():
     print("|  6) Remover aresta                        |")
     print("|  7) Mostrar conteúdo do arquivo           |")
     print("|  8) Mostrar grafo                         |")
-    print("|  9) Encerrar a aplicação            x.x   |")
+    print("|  9) Encerrar a aplicação                  |")
 
 
 def recebe() -> int:
@@ -105,9 +118,9 @@ def op1():
 
 
 def op2(grafo=None):
-    if not grafo:
-        return False
-    grafo_arq()
+    #if not grafo:
+    #    return False
+    grafo_arq(grafo)
     return True
 
 
@@ -121,7 +134,8 @@ def op3(grafo=None):
 def op4(grafo=None):
     if not grafo:
         return False
-    v, w = int(input("Informe os vértices que serão interligados (Utilize de espaço para delimitar):\n"))
+    v = int(input("Informe o primeiro dos vértices que serão interligados:\n"))
+    w = int(input("Informe o segundo dos vértices que serão interligados:\n"))
     if grafo.rotulado:
         p = float(input("Informe o custo da ligação (pode ser em ponto flutuante): "))
         grafo.insere_a(v, w, p)
@@ -141,7 +155,8 @@ def op5(grafo):
 def op6(grafo):
     if not grafo:
         return False
-    v, w = int(input("Informe qual ligação será removida: "))
+    v = int(input("Informe o primeiro vértice da ligação será removida: "))
+    w = int(input("Informe o segundo vértice da ligação será removida: "))
     grafo.remove_a(v, w)
     return grafo
 
