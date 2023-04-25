@@ -1,18 +1,20 @@
 # Projeto Callisto 🌟
 
-### Objetivos
+### Objetivos 🔭
 
 Analisar diversas constelações a partir de um input do usuário, observando quais suas características e padrões.
 
 Nosso programa recebe um txt que contenha informações de grafos equivalentes às constelações, sendo eles Não-Direcionados e Rotulados (o peso no nosso projeto se trata de ___).
 
-#### Objetivos do ODS
+#### Objetivos do ODS ✨
 
 Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholder1) é contemplado pelo nosso projeto graças ao seu potencial de [...]
 
-### Vídeo
+### Vídeo ⭐
 
-### Exemplo 
+(placeholder)
+
+### Exemplo 🌌
 
 ![image](https://user-images.githubusercontent.com/80297158/225300068-7e6c8245-13af-4540-ae5a-6fcd8954a74b.png)
 
