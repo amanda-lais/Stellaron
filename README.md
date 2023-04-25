@@ -21,7 +21,8 @@ Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholde
 
 ## Vídeo 🌟
 
-(placeholder)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+
 
 ## Exemplos 🌌
 
