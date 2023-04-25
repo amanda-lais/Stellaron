@@ -5,8 +5,8 @@
   * [grafoMatriz.py](Codigo-Projeto/grafoMatriz.py)
   * [grafoLista.py](Codigo-Projeto/grafoLista.py)
 * Documentação 🌠
-  * [Relatório 1](Documentacao/Relatorio-1.md)
-  * [Relatório 2](Documentacao/Relatorio-2.md)
+  * [Relatório 1 (apenas parte 1 do projeto)](Documentacao/Relatorio-1.md)
+  * [Relatório 2 (completo)](Documentacao/Relatorio-2.md)
   * Vídeo
 
 ## Objetivos 🔭
