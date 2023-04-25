@@ -1,11 +1,19 @@
 # Projeto Callisto 🌟
-* [main.py](Codigo-Projeto/main.py)
+
+* Código
+  * [main.py](Codigo-Projeto/main.py)
+  * [grafoMatriz.py](Codigo-Projeto/grafoMatriz.py)
+  * [grafoLista.py](Codigo-Projeto/grafoLista.py)
+* Documentação
+  * Relatório 1
+  * Relatório 2
+  * Vídeo
 
 ### Objetivos 🔭
 
 Analisar diversas constelações a partir de um input do usuário, observando quais suas características e padrões.
 
-Nosso programa recebe um txt que contenha informações de grafos equivalentes às constelações, sendo eles Não-Direcionados e Rotulados (o peso no nosso projeto se trata de ___).
+Nosso programa recebe um txt que contenha informações de grafos equivalentes às constelações, sendo eles Não-Direcionados e Rotulados (o peso no nosso projeto se trata de ___). Foi utilizada a linguagem Python.
 
 #### Objetivos do ODS ✨
 
