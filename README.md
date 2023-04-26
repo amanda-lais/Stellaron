@@ -33,6 +33,10 @@ Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholde
 
 ---
 
+# introdução
+
+![image](https://user-images.githubusercontent.com/80297158/234580682-db1b4b2c-e07e-43c1-a9c7-f3685714fd87.png)
+
 # Desatualizado 
 
 Analisar a quantidade de desenhos possiveis de serem feitos a partir de um n fixo de estrelas em uma imagem do espaço.
