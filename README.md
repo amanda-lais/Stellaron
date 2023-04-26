@@ -35,7 +35,8 @@ Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholde
 
 # introdução
 
-![image](https://user-images.githubusercontent.com/80297158/234582893-1eece2b4-dc1a-4473-9fbb-8d1d61e8400c.png)
+![image](https://user-images.githubusercontent.com/80297158/234583118-be02cb8a-7305-4c91-b314-d525e8f60e7b.png)
+
 
 # Desatualizado 
 
