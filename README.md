@@ -6,10 +6,14 @@
   * [grafoLista.py](Codigo-Projeto/grafoLista.py)
   * [Testes.txt](Codigo-Projeto/grafoLista.py)
   
+  ## Vídeo 🌟
+
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+
 * Documentação 🌠
   * [Relatório 1 (apenas parte 1 do projeto)](Documentacao/Relatorio-1.md)
   * [Relatório 2 (completo)](Documentacao/Relatorio-2.md)
-  * Vídeo
+ 
 
 ## Objetivos 🔭
 
@@ -20,10 +24,6 @@ Nosso programa recebe um txt que contenha informações de grafos equivalentes �
 ### Objetivos do ODS ✨
 
 Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholder1) é contemplado pelo nosso projeto graças ao seu potencial de [...]
-
-## Vídeo 🌟
-
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
 
 
 ## Exemplos 🌌
