@@ -1,6 +1,6 @@
 # Projeto Callisto 🛰
 
-* Código ⭐
+## Código ⭐
   * [main.py](Codigo-Projeto/main.py)
   * [grafoMatriz.py](Codigo-Projeto/grafoMatriz.py)
   * [grafoLista.py](Codigo-Projeto/grafoLista.py)
@@ -10,7 +10,7 @@
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
 
-* Documentação 🌠
+## Documentação 🌠
   * [Relatório 1 (apenas parte 1 do projeto)](Documentacao/Relatorio-1.md)
   * [Relatório 2 (completo)](Documentacao/Relatorio-2.md)
  
@@ -33,12 +33,12 @@ Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholde
 
 ---
 
-# introdução
+## introdução
 
 ![image](https://user-images.githubusercontent.com/80297158/234583118-be02cb8a-7305-4c91-b314-d525e8f60e7b.png)
 
 
-# Desatualizado 
+## Objetivos e descrição 
 
 Analisar a quantidade de desenhos possiveis de serem feitos a partir de um n fixo de estrelas em uma imagem do espaço.
 
