@@ -42,12 +42,13 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 **Todas as as distâncias entre as constelações variam em _X_ anos luz, aproximamos todas para facilitar**
 
 - Transformamos as constelações em um arestas de um grafo e colocamos as devidas distâncias de uma para outra como as arestas, nosso objetivo central é criar uma rota onde uma missão poderia visitar todas as 12 principais do zodíaco da maneira mais rápida e barata possível.
+- [Graph Online](http://graphonline.ru/en/?graph=iKzQmIVIWcIhHCEJ)
+
 - - Distâncias entre elas e a Terra
 
 ![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/60f596a1-4c5f-46ec-b87f-ff6a563f3077)
 
 - - Rota pensada
- * [Graph Online](http://graphonline.ru/en/?graph=iKzQmIVIWcIhHCEJ)
 
 ![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/fe972070-6f04-474a-b5be-40fed3f678b0)
 
