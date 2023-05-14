@@ -47,9 +47,11 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 ![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/60f596a1-4c5f-46ec-b87f-ff6a563f3077)
 
 - - Rota pensada
-**Todas as as distâncias entre as constelações variam entre 10 e 100 anos luz, aproximamos todas a 100 para facilitar**
+**Todas as as distâncias entre as constelações variam em _X_ anos luz, aproximamos todas para facilitar**
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/29dd86fb-5404-46a9-8bd4-01254b4ec468)
+Link: http://graphonline.ru/en/?graph=iKzQmIVIWcIhHCEJ
+
+
 
 
 
