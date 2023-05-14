@@ -24,7 +24,10 @@ Nosso programa recebe um txt que contenha informações de grafos equivalentes �
 
 ### Objetivos do ODS ✨
 
-Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholder1) é contemplado pelo nosso projeto graças ao seu potencial de [...]
+**ODS 9: Inovação infraestrutura – Construir infraestrutura resiliente, promover a industrialização inclusiva e sustentável, e fomentar a inovação.**
+
+- Propomos que a civilização humana, no futuro, visite outras galáxias e sistemas solares, como um plano B caso não consigamos restaurar o planeta, vimos como uma opção nos instaurar em outras galáxias e quais constelações melhores do que as tão conhecidas do zodíaco.
+Nosso projeto atende os objetivos de infraestrutura resiliente e promover a industrialização inclusiva e sustentável. O quesito de infraestrutura é contemplada no sentido de construção de meios de transporte que sejam capazes de realizar o percurso pelo nosso projeto graças ao seu potencial de obrigar a indústria espacial a construir máquinas capazes de fazer tais percursos atualmente impossíveis além de educar o público geral a respeito do tema, já na parte de na parte de infraestrutura, na parte de criar tais máquinas atualmente não existentes.
 
 
 ## Exemplos 🌌
@@ -41,9 +44,9 @@ Nosso projeto atende os objetivos (placeholder1) e (placeholder2). O (placeholde
 
 ## Objetivos e descrição 
 
-Analisar a quantidade de desenhos possiveis de serem feitos a partir de um n fixo de estrelas em uma imagem do espaço.
-
-Devemos montar um código em qualquer linguagem que receba uma imagem do céu noturno, use a estrela como vértice e ela usará esses vértices, os unirá e fará formas, espécie de constelações, mas existem algumas regras nessas formas, 2 ou mais vértices conectados sem orientação, Não pode haver ligações cruzadas que invadam o "perímetro" de uma constelação já formada, Os vértices devem estar próximos uns dos outros (distância pode ser decidida pelo usuário)
+- Transformamos as constelações em um arestas de um grafo e colocamos as devidas distâncias de uma para outra como as arestas, nosso objetivo central é criar uma rota onde uma missão poderia visitar todas as 12 principais do zodíaco da maneira mais rápida e barata possível.
+- - Distâncias entre elas e a Terra
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/60f596a1-4c5f-46ec-b87f-ff6a563f3077)
 
 ### Regras da Montagem de Constelações
 
