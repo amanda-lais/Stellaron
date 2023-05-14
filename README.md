@@ -46,10 +46,19 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 - Transformamos as constelações em um arestas de um grafo e colocamos as devidas distâncias de uma para outra como as arestas, nosso objetivo central é criar uma rota onde uma missão poderia visitar todas as 12 principais do zodíaco da maneira mais rápida e barata possível.
 - - Distâncias entre elas e a Terra
+
 ![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/60f596a1-4c5f-46ec-b87f-ff6a563f3077)
+
+- - Rota pensada
+**Todas as as distâncias entre as constelações variam entre 10 e 100 anos luz, aproximamos todas a 100 para facilitar**
+
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/29dd86fb-5404-46a9-8bd4-01254b4ec468)
+
+
 
 ### Regras da Montagem de Constelações
 
-- 2 ou mais vértices interligados sem orientação.
-- Não pode haver ligações cruzadas que invadam o "perímetro" de uma constelação já formada.
-- Os vértices devem estar próximos um do outro (distância pode ser decida pelo usuário).
+- Cada constelação deve conter todas as estrelas pertencentes a elas
+- Todas as as distâncias entre as constelações foram implementadas como arestas para facilitar
+- Transformamos os grafos de cada constelação em uma única aresta 
+- Deve-se visitar todas as constelações ao menos uma vez
