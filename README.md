@@ -36,9 +36,7 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 ## introdução
   * [Testagem ](Documentacao/Apresentação_intro)
-![image](https://user-images.githubusercontent.com/80297158/234583118-be02cb8a-7305-4c91-b314-d525e8f60e7b.png)
-
-
+  
 ## Objetivos e descrição 
 
 **Todas as as distâncias entre as constelações variam em _X_ anos luz, aproximamos todas para facilitar**
