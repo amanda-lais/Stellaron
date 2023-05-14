@@ -32,10 +32,7 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 ## Exemplos 🌌
 
-![image](https://user-images.githubusercontent.com/80297158/225300068-7e6c8245-13af-4540-ae5a-6fcd8954a74b.png)
 ![image](https://user-images.githubusercontent.com/80297158/227752344-90b05733-ed4e-45b7-9197-79259e3de308.png)
-
----
 
 ## introdução
 
