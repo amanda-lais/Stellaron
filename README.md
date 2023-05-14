@@ -50,7 +50,7 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 Link: http://graphonline.ru/en/?graph=iKzQmIVIWcIhHCEJ
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/b911e8fc-dc20-4362-8990-2ed7cb754ed0)
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/fe972070-6f04-474a-b5be-40fed3f678b0)
 
 ### Regras da Montagem de Constelações
 
