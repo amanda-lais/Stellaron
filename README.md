@@ -46,7 +46,7 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 - - Distâncias entre elas e a Terra
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/60f596a1-4c5f-46ec-b87f-ff6a563f3077)
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/d92f7d90-40b6-47e0-a538-f42f1f1c366a)
 
 - - Rota pensada
 
