@@ -50,7 +50,7 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 - - Rota pensada
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/fe972070-6f04-474a-b5be-40fed3f678b0)
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/9d665570-6122-47b1-aba7-07ff37535ab0)
 
 ### Regras da Montagem de Constelações
 
