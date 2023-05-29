@@ -43,7 +43,7 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 - Transformamos as constelações em um arestas de um grafo e colocamos as devidas distâncias de uma para outra como as arestas, nosso objetivo central é criar uma rota onde uma missão poderia visitar todas as 12 principais do zodíaco da maneira mais rápida e barata possível.
 
-- [Graph Online](https://graphonline.ru/en/?graph=iKzQmIVIWcIhHCEJ)
+- [Graph Online](http://graphonline.ru/en/?graph=UDoivsZZSeFRcSxj)
 
 - - Distâncias entre elas e a Terra
 
