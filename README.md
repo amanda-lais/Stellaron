@@ -33,11 +33,11 @@ Propomos que a civilização humana, no futuro, visite outras galáxias e sistem
 
 ### ODS 9: Inovação infraestrutura – Construir infraestrutura resiliente, promover a industrialização inclusiva e sustentável, e fomentar a inovação.
 
-Nosso projeto atende os objetivos de infraestrutura resiliente e promove a industrialização inclusiva e sustentável. O quesito de infraestrutura é contemplado pela construção de meios de transporte que sejam capazes de realizar o percurso definido pelo nosso projeto, graças ao seu potencial de obrigar a indústria espacial a construir máquinas capazes de fazerem tais percursos atualmente impossíveis. Já na parte de infraestrutura, ao serem criadas essas máquinas atualmente inexistentes.
+* Nosso projeto atende os objetivos de infraestrutura resiliente e promove a industrialização inclusiva e sustentável. O quesito de infraestrutura é contemplado pela construção de meios de transporte que sejam capazes de realizar o percurso definido pelo nosso projeto, graças ao seu potencial de obrigar a indústria espacial a construir máquinas capazes de fazerem tais percursos atualmente impossíveis. Já na parte de infraestrutura, ao serem criadas essas máquinas atualmente inexistentes.
 
 ### ODS 4: Educação de qualidade – Assegurar a educação inclusiva, e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.
 
-Propomos que as massas tenham uma melhor educação sobre os Cosmos, tendo um maior interesse pelas estrelas para que possamos criar novas gerações mais capacitadas e interessadas no assunto para que possa haver mais pesquisas no futuro, podendo, até, criar mais projetos que impulsionem a humanidade no futuro. Além disso, envisiona-se a identificação de padrões nas características de constelações, de maneira a aprender sobre os jeitos que as constelações foram definidas pelas culturas.
+* Propomos que as massas tenham uma melhor educação sobre os Cosmos, tendo um maior interesse pelas estrelas para que possamos criar novas gerações mais capacitadas e interessadas no assunto para que possa haver mais pesquisas no futuro, podendo, até, criar mais projetos que impulsionem a humanidade no futuro. Além disso, envisiona-se a identificação de padrões nas características de constelações, de maneira a aprender sobre os jeitos que as constelações foram definidas pelas culturas.
 
 ## As Constelações do Zodíaco ♈♊♌♎♐♒♉♋♍♏♑♓
 
