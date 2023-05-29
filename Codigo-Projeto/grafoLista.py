@@ -11,6 +11,7 @@ class GrafoLista:
         # lista de adjacência
         self.listaAdj = [[] for i in range(self.n)]
 
+
     # Insere uma aresta no Grafo tal que
     # v é adjacente a w
     def insere_a(self, v, w):
