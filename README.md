@@ -46,11 +46,10 @@ Nosso projeto atende os objetivos de infraestrutura resiliente e promover a indu
 
 - - Distâncias entre elas e a Terra
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/d92f7d90-40b6-47e0-a538-f42f1f1c366a)
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/1dc19e94-a829-4587-8ce7-720f757243e3)
 
 - - Rota pensada
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/9d665570-6122-47b1-aba7-07ff37535ab0)
 
 ### Regras da Montagem de Constelações
 
