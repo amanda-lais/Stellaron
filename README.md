@@ -61,8 +61,8 @@ Propomos que a civilização humana, no futuro, visite outras galáxias e sistem
 ## Regras da Montagem 🌟
 
 - Constelações:
- -  Cada constelação deve conter todas as estrelas pertencentes a elas
+- - Cada constelação deve conter todas as estrelas pertencentes a elas
 - Rotas:
- - Todas as distâncias entre constelações foram implementadas como arestas para facilitar
- - Transformamos os grafos de cada constelação em uma única aresta 
- - Deve-se visitar todas as constelações ao menos uma vez
+- - Todas as distâncias entre constelações foram implementadas como arestas para facilitar
+- - Transformamos os grafos de cada constelação em uma única aresta 
+- - Deve-se visitar todas as constelações ao menos uma vez
