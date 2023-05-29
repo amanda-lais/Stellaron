@@ -1,4 +1,5 @@
 import math
+from queue import PriorityQueue#############################
 
 
 # CLASSES
@@ -169,6 +170,7 @@ class TGrafoND:
         self.n = n
         self.m = 0
         self.rotulado = False
+        self.visited = []#############################
 
         if rotulado:
             self.rotulado = True
@@ -292,3 +294,25 @@ class TGrafoND:
             return 1
         else:
             return 0
+
+    def dijkstra(self, graph, start_vertex):#############################
+      D = {n:float('inf') for n in range(graph.n)}
+      D[start_vertex] = 0
+  
+      pq = PriorityQueue()
+      pq.put((0, start_vertex))
+  
+      while not pq.empty():
+          (dist, current_vertex) = pq.get()
+          graph.adj.append(current_vertex)
+  
+          for neighbor in range(graph.n):
+              if graph.adj[current_vertex][neighbor] != -1:
+                  distance = graph.adj[current_vertex][neighbor]
+                  if neighbor not in graph.visited:
+                      old_cost = D[neighbor]
+                      new_cost = D[current_vertex] + distance
+                      if new_cost < old_cost:
+                          pq.put((new_cost, neighbor))
+                          D[neighbor] = new_cost
+      print (D)
