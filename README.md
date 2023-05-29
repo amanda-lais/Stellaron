@@ -26,8 +26,11 @@ Nosso programa recebe um txt que contenha informações de grafos equivalentes �
 
 **ODS 9: Inovação infraestrutura – Construir infraestrutura resiliente, promover a industrialização inclusiva e sustentável, e fomentar a inovação.**
 
+**ODS 4: Educação de qualidade – Assegurar a educação inclusiva, e equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos.**
+
 - Propomos que a civilização humana, no futuro, visite outras galáxias e sistemas solares, como um plano B caso não consigamos restaurar o planeta, vimos como uma opção nos instaurar em outras galáxias e quais constelações melhores do que as tão conhecidas do zodíaco.
 Nosso projeto atende os objetivos de infraestrutura resiliente e promover a industrialização inclusiva e sustentável. O quesito de infraestrutura é contemplada no sentido de construção de meios de transporte que sejam capazes de realizar o percurso pelo nosso projeto graças ao seu potencial de obrigar a indústria espacial a construir máquinas capazes de fazer tais percursos atualmente impossíveis além de educar o público geral a respeito do tema, já na parte de na parte de infraestrutura, na parte de criar tais máquinas atualmente não existentes.
+- Propomos que as massas tenham uma melhor educação sobre o Cosmos tendo um maior interesse pelas estrelas para que possamos criar novas gerações mais capacitadas e interessadas no assunto para que possam haver mais pesquisas no futuro, podendo até, desse modo, criar mais projetos que impulcionem a humanidade no futuro.
 
 
 ## Exemplos 🌌
