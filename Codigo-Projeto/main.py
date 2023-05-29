@@ -2,6 +2,7 @@ from grafoMatriz import GrafoMatriz, TGrafoND
 from grafoLista import GrafoLista
 import time
 import os
+import math
 
 # GLOBALS -------------------------------------------------
 NOME_ARQ = "grafo.txt"
@@ -56,12 +57,12 @@ def arq_grafo(n_aqr: str, tipo=0):
 def grafo_arq(grafo):
     arq = open("grafo.txt", 'w') 
     arq.write("1\n")
-    arq.write(str(grafo.n)) #vértices
-    arq.write(str(grafo.m)) #arestas
+    arq.write(str(grafo.n)+ '\n') #vértices
+    arq.write(str(grafo.m)+ '\n') #arestas
     for i in range(grafo.n):
         for x in range(grafo.n):
             if grafo.adj[i][x] != math.inf:
-                arq.write("{str(i)} {str(x)} {str(grafo.adj[i][x]})\n")
+                arq.write(str(i) + ' ' + str(x) + ' ' + str(grafo.adj[i][x]) + '\n')
     arq.close()
 
 def converter_ml(original: GrafoMatriz) -> GrafoLista:
@@ -171,7 +172,11 @@ def op8(grafo):
         return False
     grafo.show()
 
-
+def op10(grafo):
+    if not grafo:
+        return False
+    grafo.dijkstra(grafo, 0)
+  
 def menu():
     grafo = None
     saudacoes()
@@ -220,7 +225,11 @@ def menu():
                 falha()
                 continue
             op8(grafo)
-
+        elif escolha == 10:
+          if not grafo:
+                falha()
+                continue
+          op10(grafo)
 # MAIN ----------------------------------------------------
 if __name__ == "__main__":
     menu()
