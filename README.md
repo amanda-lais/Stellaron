@@ -57,6 +57,8 @@ Propomos que a civilização humana, no futuro, visite outras galáxias e sistem
 
 - - Rota pensada 🗺️
 
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/3b8a4928-8a8c-40db-aab3-0ce60594a14a)
+
 
 ## Regras da Montagem 🌟
 
