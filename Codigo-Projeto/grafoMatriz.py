@@ -1,5 +1,6 @@
 import math
-from queue import PriorityQueue#############################
+from util import Pilha
+from queue import PriorityQueue
 
 # CLASSES
 # grafo nao direcionado -- rotulado ou não
@@ -10,8 +11,7 @@ class TGrafoND:
         self.n = n
         self.m = 0
         self.rotulado = False
-        self.visited = []#############################
-
+        self.visitados = []
         if rotulado:
             self.rotulado = True
             self.adj = [[math.inf for i in range(n)] for j in range(n)]
@@ -134,7 +134,7 @@ class TGrafoND:
             return 1
         else:
             return 0
-        
+
     @staticmethod
     def visitar_no(no: int):
         print(f"Estamos visitando o nó {no}")
@@ -143,7 +143,7 @@ class TGrafoND:
     def marcar_no(marcados, no):
         marcados.append(no)
         return marcados
-        
+
     def no_adjacente(self, no, marcados):
         adjs = self.adj[no]
         for _ in range(self.n):
@@ -153,7 +153,7 @@ class TGrafoND:
 
     def nos_adjacentes(self, no, marcados):
         return [index for index, valor in enumerate(self.adj[no]) if (valor != 0 and valor != math.inf) and marcados]
-    
+
     def is_adjac(self, i, j) -> int:
         if (self.adj[i][j] != 0 or self.adj[j][i] != 0) == True:
             return True
@@ -164,7 +164,7 @@ class TGrafoND:
             if self.adj[i][x] or self.adj[x][i] > 0:
                 vertices.append(x)
         return(vertices)
-    
+
     def percurso_profundidade(self, v_inicio):
         marcados = []
         p = Pilha()
@@ -181,7 +181,7 @@ class TGrafoND:
                 self.marcar_no(marcados, no_seguinte)
                 no_atual = no_seguinte
                 no_seguinte = self.no_adjacente(no_seguinte, marcados)
-             
+
     def ordenacao_topologica(self, vInicio):
         visitados = []
         ge = [None]*self.n
@@ -208,22 +208,22 @@ class TGrafoND:
                     f.enqueue(i)
                     ge[i] = -1
         return visitados
-            
-    def dijkstra(self, graph, start_vertex):#############################
-        D = {n:float('inf') for n in range(graph.n)}
-        D[start_vertex] = 0
+
+    def dijkstra(self, grafo, no_inicial):
+        D = {n:float('inf') for n in range(grafo.n)}
+        D[no_inicial] = 0
         pq = PriorityQueue()
-        pq.put((0, start_vertex))
+        pq.put((0, no_inicial))
         while not pq.empty():
-            (dist, current_vertex) = pq.get()
-            graph.adj.append(current_vertex)
-            for neighbor in range(graph.n):
-                if graph.adj[current_vertex][neighbor] != -1:
-                    distance = graph.adj[current_vertex][neighbor]
-                    if neighbor not in graph.visited:
-                        old_cost = D[neighbor]
-                        new_cost = D[current_vertex] + distance
-                        if new_cost < old_cost:
-                            pq.put((new_cost, neighbor))
-                            D[neighbor] = new_cost
+            (dist, no_atual) = pq.get()
+            grafo.adj.append(no_atual)
+            for vizinho in range(grafo.n):
+                if grafo.adj[no_atual][vizinho] != -1:
+                    dist = grafo.adj[no_atual][vizinho]
+                    if vizinho not in grafo.visitados:
+                        custo_antigo = D[vizinho]
+                        novo_custo = D[no_atual] + dist
+                        if novo_custo < custo_antigo:
+                            pq.put((novo_custo, vizinho))
+                            D[vizinho] = novo_custo
         print (D)
