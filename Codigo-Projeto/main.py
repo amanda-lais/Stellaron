@@ -99,7 +99,8 @@ def show_opcoes():
     print("|  6) Remover aresta                        |")
     print("|  7) Mostrar conteúdo do arquivo           |")
     print("|  8) Mostrar grafo                         |")
-    print("|  9) Encerrar a aplicação                  |")
+    print("|  9) Verificar menor caminho               |")
+    print("|  10) Encerrar a aplicação                 |")
 
 
 def recebe() -> int:
@@ -172,7 +173,7 @@ def op8(grafo):
         return False
     grafo.show()
 
-def op10(grafo):
+def op9(grafo):
     if not grafo:
         return False
     grafo.dijkstra(grafo, 0)
@@ -185,7 +186,7 @@ def menu():
         os.system('cls')
         show_opcoes()
         escolha = recebe()
-        if escolha == 9:
+        if escolha == 10:
             print("Até mais, estrelinha *-*")
             return True
         elif escolha == 1:
@@ -225,11 +226,11 @@ def menu():
                 falha()
                 continue
             op8(grafo)
-        elif escolha == 10:
+        elif escolha == 9:
           if not grafo:
                 falha()
                 continue
-          op10(grafo)
+          op9(grafo)
 # MAIN ----------------------------------------------------
 if __name__ == "__main__":
     menu()
