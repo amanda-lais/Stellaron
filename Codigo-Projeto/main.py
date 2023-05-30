@@ -29,10 +29,6 @@ def arq_grafo(n_aqr: str, tipo=0):
         grafo = TGrafoND(n, False)
     elif tipo == 0 and t == 1:
         grafo = TGrafoND(n, True)
-    elif tipo == 1 and t == 0:
-        grafo = GrafoMatriz(n, False)
-    else:
-        grafo = GrafoMatriz(n, True)
     data = arq.readlines()
     arq.close()
     if t == 1:  # para os rotulados
@@ -47,13 +43,6 @@ def arq_grafo(n_aqr: str, tipo=0):
             grafo.insere_a(v, w)
     return grafo
 
-# for i in range(self.n):
-#             print(f"\n{i:2d}: ", end="")
-#             for w in range(len(self.listaAdj[i])):
-#                 val = self.listaAdj[i][w]
-#                 print(f"{val:2d}", end="")
-
-
 def grafo_arq(grafo):
     arq = open("grafo.txt", 'w') 
     arq.write("1\n")
@@ -67,7 +56,6 @@ def grafo_arq(grafo):
 
 def converter_ml(original: GrafoMatriz) -> GrafoLista:
     gl = GrafoLista(original.n)
-
     for v in range(0, original.n):
         for w in range(0, original.n):
             if original.adj[v][w] == 1:
