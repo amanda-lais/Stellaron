@@ -53,12 +53,14 @@ Propomos que a civilização humana, no futuro, visite outras galáxias e sistem
 
 - - Distâncias entre elas e a Terra 🌎
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/1dc19e94-a829-4587-8ce7-720f757243e3)
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/330f9326-82a8-43ef-9707-e6157dc6a0c2)
 
-- - Rota pensada 🗺️
+- - Rota Otimizada 🗺️
 
-![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/3b8a4928-8a8c-40db-aab3-0ce60594a14a)
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/2b0fe493-0f43-4713-b023-6fc2dd4f9aff)
 
+- - Matriz da rota otimizada
+![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/88f068ad-82c1-4bb3-8ff1-a347b918f519)
 
 ## Regras da Montagem 🌟
 
