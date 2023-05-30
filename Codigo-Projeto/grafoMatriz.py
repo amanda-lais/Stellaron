@@ -175,7 +175,6 @@ class TGrafoND:
             no_atual = p.pop()
             no_seguinte = self.no_adjacente(no_atual, marcados)
             while no_seguinte != -1:
-                print(no_seguinte)
                 self.visitar_no(no_seguinte)
                 p.push(no_atual)
                 self.marcar_no(marcados, no_seguinte)
