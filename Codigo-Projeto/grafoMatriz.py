@@ -8,8 +8,8 @@ from queue import PriorityQueue
 class TGrafoND:
     TAM_MAX_DEFAULT = 100
     def __init__(self, n=TAM_MAX_DEFAULT, rotulado=False):
-        self.n = n
-        self.m = 0
+        self.n = n #vertices
+        self.m = 0 #arestas
         self.rotulado = False
         self.visitados = []
         if rotulado:
@@ -163,16 +163,16 @@ class TGrafoND:
 
     def percurso_profundidade(self, v_inicio):
         marcados = []
-        visita = ""
+        visita = []
         p = Pilha()
-        visita += str(v_inicio)
+        visita.append(v_inicio)
         marcados = self.marcar_no(marcados, v_inicio)
         p.push(v_inicio)
         while not p.is_empty():
             no_atual = p.pop()
             no_seguinte = self.no_adjacente(no_atual, marcados)
             while no_seguinte != -1:
-                visita += " " + str(no_seguinte)
+                visita.append(no_seguinte)
                 p.push(no_atual)
                 self.marcar_no(marcados, no_seguinte)
                 no_atual = no_seguinte
@@ -194,7 +194,7 @@ class TGrafoND:
                 ge[i] = -1
         while f.is_empty() == False:
             n = f.dequeue()
-            visita += str(n) + " "
+            visita += str(n)
             visitados.append(n)
             j = self.is_adjacto(n)
             for i in j:
@@ -224,4 +224,11 @@ class TGrafoND:
                         if novo_custo < custo_antigo:
                             pq.put((novo_custo, vizinho))
                             D[vizinho] = novo_custo
-        print (D)
+        print(D)
+
+    def conexidade(self, grafo, no_inicial):
+        #qtdv = self.percurso_profundidade(no_inicial)
+        if len(self.percurso_profundidade(no_inicial)) == self.n:
+            print("\nÉ CONEXO  ˗ˏˋ ★ ˎˊ˗")
+        else:
+            print("\nÉ DESCONEXO  ˗ˏˋ ★ ˎˊ˗")
