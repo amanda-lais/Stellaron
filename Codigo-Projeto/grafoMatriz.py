@@ -136,10 +136,6 @@ class TGrafoND:
             return 0
 
     @staticmethod
-    def visitar_no(no: int):
-        print(f"Estamos visitando o nó {no}")
-
-    @staticmethod
     def marcar_no(marcados, no):
         marcados.append(no)
         return marcados
@@ -167,22 +163,25 @@ class TGrafoND:
 
     def percurso_profundidade(self, v_inicio):
         marcados = []
+        visita = ""
         p = Pilha()
-        self.visitar_no(v_inicio)
+        visita += str(v_inicio)
         marcados = self.marcar_no(marcados, v_inicio)
         p.push(v_inicio)
         while not p.is_empty():
             no_atual = p.pop()
             no_seguinte = self.no_adjacente(no_atual, marcados)
             while no_seguinte != -1:
-                self.visitar_no(no_seguinte)
+                visita += " " + str(no_seguinte)
                 p.push(no_atual)
                 self.marcar_no(marcados, no_seguinte)
                 no_atual = no_seguinte
                 no_seguinte = self.no_adjacente(no_seguinte, marcados)
+        return visita
 
     def ordenacao_topologica(self, vInicio):
         visitados = []
+        visita = ""
         ge = [None]*self.n
         pos = 0
         for i in range(self.n):
@@ -195,7 +194,7 @@ class TGrafoND:
                 ge[i] = -1
         while f.is_empty() == False:
             n = f.dequeue()
-            self.visitar_no(n)
+            visita += str(n) + " "
             visitados.append(n)
             j = self.is_adjacto(n)
             for i in j:
