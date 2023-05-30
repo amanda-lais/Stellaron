@@ -60,6 +60,7 @@ Propomos que a civilização humana, no futuro, visite outras galáxias e sistem
 ![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/2b0fe493-0f43-4713-b023-6fc2dd4f9aff)
 
 - - Matriz da rota otimizada
+
 ![image](https://github.com/Thiago2204/Projeto-Callisto/assets/80297158/88f068ad-82c1-4bb3-8ff1-a347b918f519)
 
 ## Regras da Montagem 🌟
