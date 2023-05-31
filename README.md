@@ -6,7 +6,6 @@
 ## Código ⭐
   * [main.py](Codigo-Projeto/main.py)
   * [grafoMatriz.py](Codigo-Projeto/grafoMatriz.py)
-  * [grafoLista.py](Codigo-Projeto/grafoLista.py)
   * [Testes.txt](Codigo-Projeto/Textes_txt)
   
 ## Vídeo ✨
