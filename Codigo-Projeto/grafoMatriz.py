@@ -237,7 +237,7 @@ class TGrafoND:
         for i in num_const:
             msg = ""
             if i == 0:
-                msg += "\nPartindo de "
+                msg += "Partindo de "
             else:
                 print(" ★ ° ☾ ☆ ¸. ¸ 　★　 :.　 . • ¸ *　:. \n")
                 msg += "¸ * . • ¸　. • ¸ :. Agora em "
