@@ -1,7 +1,7 @@
 # Projeto Callisto 🛰
 
 ## Introdução 🌌
-  * [Apresentação](Documentacao/Apresentação_Intro.ppt)
+  * [Apresentação](Documentacao/Apresentação_Intro.md)
 
 ## Código ⭐
   * [main.py](Codigo-Projeto/main.py)
