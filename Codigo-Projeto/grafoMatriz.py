@@ -179,34 +179,6 @@ class TGrafoND:
                 no_seguinte = self.no_adjacente(no_seguinte, marcados)
         return visita
 
-    def ordenacao_topologica(self, vInicio):
-        visitados = []
-        visita = ""
-        ge = [None]*self.n
-        pos = 0
-        for i in range(self.n):
-            ge[pos] = self.in_degree(i)
-            pos += 1
-        f = Fila()
-        for i in range(len(ge)):
-            if ge[i] == 0:
-                f.enqueue(i)
-                ge[i] = -1
-        while f.is_empty() == False:
-            n = f.dequeue()
-            visita += str(n)
-            visitados.append(n)
-            j = self.is_adjacto(n)
-            for i in j:
-                if ge[i] == -1:
-                    continue
-                ge[i] -= 1
-            for i in range(len(ge)):
-                if ge[i] == 0:
-                    f.enqueue(i)
-                    ge[i] = -1
-        return visitados
-
     def dijkstra(self, grafo, no_inicial):
         D = {n:float('inf') for n in range(grafo.n)}
         D[no_inicial] = 0
@@ -227,8 +199,50 @@ class TGrafoND:
         print(D)
 
     def conexidade(self, grafo, no_inicial):
-        #qtdv = self.percurso_profundidade(no_inicial)
         if len(self.percurso_profundidade(no_inicial)) == self.n:
-            print("\nÉ CONEXO  ˗ˏˋ ★ ˎˊ˗")
+            return "\nÉ CONEXO  ˗ˏˋ ★ ˎˊ˗"
         else:
-            print("\nÉ DESCONEXO  ˗ˏˋ ★ ˎˊ˗")
+            return "\nÉ DESCONEXO  ˗ˏˋ ★ ˎˊ˗"
+
+    def constelacao(self, num_const):
+        match num_const:
+            case 0:
+                return "TERRA"
+            case 1:
+                return "ARIES"
+            case 2:
+                return "TOURO"
+            case 3:
+                return "GEMEOS"
+            case 4:
+                return "CANCER"
+            case 5:
+                return "LEAO"
+            case 6:
+                return "VIRGEM"
+            case 7:
+                return "LIBRA"
+            case 8:
+                return "ESCORPIAO"
+            case 9:
+                return "SAGITARIO"
+            case 10:
+                return "CAPRICORNIO"
+            case 11:
+                return "AQUARIO"
+            case 12:
+                return "PEIXES"
+
+    def percurso_feito(self, num_const):
+        for i in num_const:
+            msg = ""
+            if i == 0:
+                msg += "\nPartindo de "
+            else:
+                print(" ★ ° ☾ ☆ ¸. ¸ 　★　 :.　 . • ¸ *　:. \n")
+                msg += "¸ * . • ¸　. • ¸ :. Agora em "
+            msg += self.constelacao(i)
+            if i == 0:
+                msg += "¸ *　:. . • ¸"
+            print(msg)			
+        print("\n\nPercurso CONCLUÍDO ˗ˏˋ ★ ˎˊ˗")
