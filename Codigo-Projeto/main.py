@@ -116,7 +116,7 @@ def op2(grafo=None):
 def op3(grafo=None):
     if not grafo:
         return False
-    grafo.insere_v(grafo)
+    grafo.insere_v()
     return grafo
 
 
