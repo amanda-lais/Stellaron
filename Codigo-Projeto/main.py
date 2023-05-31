@@ -94,7 +94,9 @@ def show_opcoes():
     print("|  7) Mostrar conteúdo do arquivo           |")
     print("|  8) Mostrar grafo                         |")
     print("|  9) Verificar menor caminho               |")
-    print("|  10) Encerrar a aplicação                 |")
+    print("|  10) Verificar conexidade                 |")
+    print("|  11) Visualizar um percurso para a rota   |")
+    print("|  12) Encerrar a aplicação                 |")
 
 
 def recebe() -> int:
@@ -156,11 +158,9 @@ def op6(grafo):
     grafo.remove_a(v, w)
     return grafo
 
-
 def op7():
     with open(op1()) as file:
         print(file.read())
-
 
 def op8(grafo):
     if not grafo:
@@ -171,6 +171,19 @@ def op9(grafo):
     if not grafo:
         return False
     grafo.dijkstra(grafo, 0)
+ 
+def op10(grafo):
+    if not grafo:
+        return False
+    v = int(input("Digite o número de um vértice: "))
+    grafo.conexidade(grafo, v)
+
+def op11(grafo):
+    if not grafo:
+        return False
+    v = int(input("Digite o número do vértice inicial: "))
+    perc = grafo.percurso_profundidade(perc)
+	grafo.percurso_feito(perc)
   
 def menu():
     grafo = None
@@ -180,8 +193,8 @@ def menu():
         os.system('cls')
         show_opcoes()
         escolha = recebe()
-        if escolha == 10:
-            print("Até mais, estrelinha *-*")
+        if escolha == 12:
+            print(" *   .        *       .       .       *  ˗ˏˋ ★ ˎˊ˗")
             return True
         elif escolha == 1:
             grafo = arq_grafo(op1())
@@ -221,10 +234,20 @@ def menu():
                 continue
             op8(grafo)
         elif escolha == 9:
-          if not grafo:
+            if not grafo:
                 falha()
                 continue
           op9(grafo)
+        elif escolha == 10:
+            if not grafo:
+                falha()
+                continue
+           op10(grafo)
+        elif escolhha == 11:
+            if not grafo:
+                falha()
+                continue
+            op11(grafo)
 # MAIN ----------------------------------------------------
 if __name__ == "__main__":
     menu()
