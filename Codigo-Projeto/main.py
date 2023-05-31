@@ -1,5 +1,4 @@
-from grafoMatriz import GrafoMatriz, TGrafoND
-from grafoLista import GrafoLista
+from grafoMatriz import TGrafoND
 import time
 import os
 import math
@@ -53,14 +52,6 @@ def grafo_arq(grafo):
             if grafo.adj[i][x] != math.inf:
                 arq.write(str(i) + ' ' + str(x) + ' ' + str(grafo.adj[i][x]) + '\n')
     arq.close()
-
-def converter_ml(original: GrafoMatriz) -> GrafoLista:
-    gl = GrafoLista(original.n)
-    for v in range(0, original.n):
-        for w in range(0, original.n):
-            if original.adj[v][w] == 1:
-                gl.insere_a(v, w)
-    return gl
 
 
 def saudacoes():
@@ -176,14 +167,14 @@ def op10(grafo):
     if not grafo:
         return False
     v = int(input("Digite o número de um vértice: "))
-    grafo.conexidade(grafo, v)
+    print(grafo.conexidade(grafo, v))
 
 def op11(grafo):
     if not grafo:
         return False
     v = int(input("Digite o número do vértice inicial: "))
-    perc = grafo.percurso_profundidade(perc)
-	grafo.percurso_feito(perc)
+    perc = grafo.percurso_profundidade(v)
+    grafo.percurso_feito(perc)
   
 def menu():
     grafo = None
@@ -237,13 +228,13 @@ def menu():
             if not grafo:
                 falha()
                 continue
-          op9(grafo)
+            op9(grafo)
         elif escolha == 10:
             if not grafo:
                 falha()
                 continue
-           op10(grafo)
-        elif escolhha == 11:
+            op10(grafo)
+        elif escolha == 11:
             if not grafo:
                 falha()
                 continue
