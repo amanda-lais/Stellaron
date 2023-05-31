@@ -161,7 +161,8 @@ def op8(grafo):
 def op9(grafo):
     if not grafo:
         return False
-    grafo.dijkstra(grafo, 0)
+    v = int(input("Digite o número de um vértice: "))
+    grafo.dijkstra(grafo, v)
  
 def op10(grafo):
     if not grafo:
