@@ -11,7 +11,7 @@
   
 ## Vídeo ✨
 
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=IOfozrUjphk)
 
 ## Documentação 🌠
   * [Relatório 1 (apenas parte 1 do projeto)](Documentacao/Relatorio-1.md)
