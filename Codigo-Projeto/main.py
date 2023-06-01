@@ -24,9 +24,7 @@ def arq_grafo(n_aqr: str, tipo=0):
         return None
     t, n, m = int(arq.readline()), int(arq.readline()), int(arq.readline())
     # Instancia o Grafo
-    if tipo == 0 and t == 0:
-        grafo = TGrafoND(n, False)
-    elif tipo == 0 and t == 1:
+    if tipo == 0 and t == 1:
         grafo = TGrafoND(n, True)
     data = arq.readlines()
     arq.close()
@@ -35,11 +33,6 @@ def arq_grafo(n_aqr: str, tipo=0):
             v, w, valor = linha.split()
             v, w, valor = int(v), int(w), int(valor)
             grafo.insere_a(v, w, valor)
-    if t == 0:  # para não rotulados
-        for linha in data:
-            v, w = linha.split()
-            v, w = int(v), int(w)
-            grafo.insere_a(v, w)
     return grafo
 
 def grafo_arq(grafo):
@@ -107,8 +100,6 @@ def op1():
 
 
 def op2(grafo=None):
-    #if not grafo:
-    #    return False
     grafo_arq(grafo)
     return True
 
