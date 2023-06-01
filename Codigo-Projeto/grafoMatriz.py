@@ -28,19 +28,13 @@ class TGrafoND:
             self.adj.append([0 for i in range(self.n)])
 
     def insere_a(self, v, w, valor: float = 1):
-        if self.rotulado and self.adj[v][w] == math.inf:
-            self.adj[v][w], self.adj[w][v] = valor, valor
-            self.m += 1
-        if not self.rotulado and self.adj[v][w] == 0:
+        if self.adj[v][w] == math.inf:
             self.adj[v][w], self.adj[w][v] = valor, valor
             self.m += 1
 
     def remove_a(self, v, w):
-        if self.rotulado and self.adj[v][w] != math.inf:
+        if self.adj[v][w] != math.inf:
             self.adj[v][w], self.adj[w][v] = math.inf, math.inf
-            self.m -= 1
-        if not self.rotulado and self.adj[v][w] != 0:
-            self.adj[v][w], self.adj[w][v] = 0, 0
             self.m -= 1
 
     def show(self):
