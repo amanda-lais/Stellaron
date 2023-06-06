@@ -4,6 +4,5 @@ Forked from my uni group's graph teory project for additional development both f
 Name comes from a weeb game.
 
 <br></br>
-<br></br>
 
 <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/461e524d-46e5-493d-84ac-0df60752ee61" width="250"/>
