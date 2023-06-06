@@ -1,6 +1,7 @@
 # Stellaron 🌌
 
 Forked from my uni group's graph teory project for additional development both for fun and acquiring a better understanding about graphs. Fueled by my love of space and stars. ...And just wanting a project to fiddle with from time to time, I suppose.
+
 Name comes from a weeb game.
 
 <br></br>
