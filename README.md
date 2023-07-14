@@ -57,6 +57,7 @@ Required:
 - [ ] Some kind of SRS for constellations 🟦🐳
 - [ ] Generate constellation from a picture 🟦🐳
 - [ ] Dynamic constellation generation 🟦🐳
+- [ ] GUI 🔳🐳
 
 
 <br></br>
