@@ -14,6 +14,8 @@ Required:
 * Skyfield, `pip install skyfield`
 * Networkx, `pip install networkx`
 
+<p align="center">☄</p>
+
 ---
 
 ## Screenshots 🌌
@@ -32,13 +34,19 @@ Required:
 満天の星空にほら
 
 浮かべてみて明日のビジョン
+
+そこで見えるそこで見えるなら
+
+もっと飛べるよ
+
+満開の笑顔ならほら
+
+歌ってみてこのトキメキ
+
+そこで会えるそこで会えるから
+
+だってきっと世界は変わるから
 </blockquote>
-<p align="center">そこで見えるそこで見えるなら</p>
-<p align="center">もっと飛べるよ</p>
-<p align="center">満開の笑顔ならほら</p>
-<p align="center">歌ってみてこのトキメキ</p>
-<p align="center">そこで会えるそこで会えるから</p>
-<p align="center">だってきっと世界は変わるから</p>
 
 #### 🌠 =======
 - [ ] PTBR translation (by myself) 🟥
@@ -82,4 +90,4 @@ Required:
 
 <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/461e524d-46e5-493d-84ac-0df60752ee61" width="250"/>
 
-<p align="center">明日も会えるから</p>
+<p align="center">☄ 明日も会えるから ☄</p>
