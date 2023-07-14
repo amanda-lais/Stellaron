@@ -15,33 +15,33 @@ Name comes from a weeb game.
 
 ---
 
-To do list:
+### To do list
 
-🌠 =======
+#### 🌠 =======
 - [ ] PTBR translation 🟥
 - [ ] Better documentation 🟨
 
-🌟 =======
+#### 🌟 =======
 - [ ] Add more presets for the graph that can be chosen on the menu 🟨
 - [ ] Better looking graph 🟩
 - [ ] Analysis of a graph's characteristics 🟧
 - [ ] Possibly add a skymap or some other visualization 🟩
 
-🔭 =======
+#### 🔭 =======
 - [ ] Add some non-modern constellations 🟨
 - [ ] Add some fictional constellations 🟩
 - [ ] Add asterisms 🟧
 
-🌃 =======
+#### 🌃 =======
 - [ ] Add constellations' full names 🟧
 - [ ] Add stars' full names 🟧
 - [ ] Add more info about stars and/or constellations 🟨
 
-🪐 =======
+#### 🪐 =======
 - [ ] Option to choose location 🟨
 - [ ] Detect location automatically 🟩
 
-☄️ =======
+#### ☄️ =======
 - [ ] Quizzing about constellations 🟨
 - [ ] Generate constellation from a picture 🟦🐳
 - [ ] Dynamic constellation generation 🟦🐳
