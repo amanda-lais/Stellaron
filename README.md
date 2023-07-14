@@ -1,5 +1,9 @@
 # Stellaron 🌌
 
+<p align="center">
+  <img src="http://some_place.com/image.png](https://github.com/amanda-lais/Stellaron/assets/100282290/2f7226c4-0c6a-47b4-92a6-676580890cfb"/>
+</p>
+
 ![text-1689319055439](https://github.com/amanda-lais/Stellaron/assets/100282290/2f7226c4-0c6a-47b4-92a6-676580890cfb)
 
 Currently capable of generating a graph of all 88 modern constellations.
