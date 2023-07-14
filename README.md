@@ -24,7 +24,8 @@ Required:
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/f4acd6fb-a9ae-4579-bb1b-bfc63df416af"/>
 </p>
 
-<center>
+<p align="center">
+
 満天の星空にほら
 
 浮かべてみて明日のビジョン
@@ -40,7 +41,7 @@ Required:
 そこで会える　そこで会えるから
 
 だってきっと　世界は変わるから
-</center>
+</p>
 
 ---
 
