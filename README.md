@@ -18,28 +18,29 @@ Required:
 
 ## Screenshots 🌌
 
->満天の星空にほら
->
->浮かべてみて明日のビジョン
->
->そこで見える　そこで見えるなら
->
->もっと飛べるよ
->
->満開の笑顔ならほら
->
->歌ってみてこのトキメキ
->
->そこで会える　そこで会えるから
->
->だってきっと　世界は変わるから
-
-
 <p align="center">
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/b278b3ce-9203-47c3-9f68-5f3c85f8775f"/>
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/d635ceb4-46c5-439d-95cb-c23a52fb947c"/>
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/f4acd6fb-a9ae-4579-bb1b-bfc63df416af"/>
 </p>
+
+<center>
+満天の星空にほら
+
+浮かべてみて明日のビジョン
+
+そこで見える　そこで見えるなら
+
+もっと飛べるよ
+
+満開の笑顔ならほら
+
+歌ってみてこのトキメキ
+
+そこで会える　そこで会えるから
+
+だってきっと　世界は変わるから
+</center>
 
 ---
 
