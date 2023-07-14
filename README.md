@@ -10,6 +10,10 @@ Constellation data used comes from [Stellarium](https://github.com/Stellarium/st
 
 Forked from my uni group's graph theory project for additional development both for fun and acquiring a better understanding about graphs. Fueled by my love of space and stars. ...And just wanting a project to fiddle with from time to time, I suppose, so development isn't *very* active.
 
+Required:
+* Skyfield, `pip install skyfield`
+* Networkx, `pip install networkx`
+
 ---
 
 ## Screenshots 🌌
