@@ -30,12 +30,12 @@ Required:
 
 <p align="center">満天の星空にほら</p>
 <p align="center">浮かべてみて明日のビジョン</p>
-<p align="center">そこで見える　そこで見えるなら</p>
+<p align="center">そこで見えるそこで見えるなら</p>
 <p align="center">もっと飛べるよ</p>
 <p align="center">満開の笑顔ならほら</p>
 <p align="center">歌ってみてこのトキメキ</p>
-<p align="center">そこで会える　そこで会えるから</p>
-<p align="center">だってきっと　世界は変わるから</p>
+<p align="center">そこで会えるそこで会えるから</p>
+<p align="center">だってきっと世界は変わるから</p>
 
 #### 🌠 =======
 - [ ] PTBR translation (by myself) 🟥
@@ -78,3 +78,5 @@ Required:
 <br></br>
 
 <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/461e524d-46e5-493d-84ac-0df60752ee61" width="250"/>
+
+<p align="center">明日も会えるから</p>
