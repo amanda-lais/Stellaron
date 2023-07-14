@@ -4,8 +4,6 @@
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/2f7226c4-0c6a-47b4-92a6-676580890cfb"/>
 </p>
 
-![text-1689319055439](https://github.com/amanda-lais/Stellaron/assets/100282290/2f7226c4-0c6a-47b4-92a6-676580890cfb)
-
 Currently capable of generating a graph of all 88 modern constellations.
 Constellation data used comes from [Stellarium](https://github.com/Stellarium/stellarium). Making use of [Skyfield](https://github.com/skyfielders/python-skyfield) and [NetworkX](https://github.com/networkx/networkx).
 
@@ -19,9 +17,11 @@ Name comes from a weeb game.
 
 ## Screenshots
 
-![image](https://github.com/amanda-lais/Stellaron/assets/100282290/b278b3ce-9203-47c3-9f68-5f3c85f8775f)
-![image](https://github.com/amanda-lais/Stellaron/assets/100282290/d635ceb4-46c5-439d-95cb-c23a52fb947c)
-![image](https://github.com/amanda-lais/Stellaron/assets/100282290/f4acd6fb-a9ae-4579-bb1b-bfc63df416af)
+<p align="center">
+  <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/b278b3ce-9203-47c3-9f68-5f3c85f8775f"/>
+  <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/d635ceb4-46c5-439d-95cb-c23a52fb947c"/>
+  <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/f4acd6fb-a9ae-4579-bb1b-bfc63df416af"/>
+</p>
 
 ---
 
