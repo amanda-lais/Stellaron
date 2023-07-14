@@ -5,7 +5,7 @@
 </p>
 <br></br>
 
-Currently capable of generating a graph of all 88 modern constellations.
+Currently capable of generating a graph for each of all 88 modern constellations.
 Constellation data used comes from [Stellarium](https://github.com/Stellarium/stellarium). Making use of [Skyfield](https://github.com/skyfielders/python-skyfield) and [NetworkX](https://github.com/networkx/networkx).
 
 Forked from my uni group's graph theory project for additional development both for fun and acquiring a better understanding about graphs. Fueled by my love of space and stars. ...And just wanting a project to fiddle with from time to time, I suppose, so development isn't *very* active.
