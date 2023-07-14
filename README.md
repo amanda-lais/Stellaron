@@ -1,5 +1,7 @@
 # Stellaron 🌌
 
+![text-1689319055439](https://github.com/amanda-lais/Stellaron/assets/100282290/2f7226c4-0c6a-47b4-92a6-676580890cfb)
+
 Currently capable of generating a graph of all 88 modern constellations.
 Constellation data used comes from [Stellarium](https://github.com/Stellarium/stellarium). Making use of [Skyfield](https://github.com/skyfielders/python-skyfield) and [NetworkX](https://github.com/networkx/networkx).
 
