@@ -15,7 +15,15 @@ Name comes from a weeb game.
 
 ---
 
-### To do list
+## Screenshots
+
+![image](https://github.com/amanda-lais/Stellaron/assets/100282290/b278b3ce-9203-47c3-9f68-5f3c85f8775f)
+![image](https://github.com/amanda-lais/Stellaron/assets/100282290/d635ceb4-46c5-439d-95cb-c23a52fb947c)
+![image](https://github.com/amanda-lais/Stellaron/assets/100282290/f4acd6fb-a9ae-4579-bb1b-bfc63df416af)
+
+---
+
+## To do list
 
 #### 🌠 =======
 - [ ] PTBR translation 🟥
@@ -43,5 +51,6 @@ Name comes from a weeb game.
 
 #### ☄️ =======
 - [ ] Quizzing about constellations 🟨
+- [ ] Some kind of SRS for constellations 🟦🐳
 - [ ] Generate constellation from a picture 🟦🐳
 - [ ] Dynamic constellation generation 🟦🐳
