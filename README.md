@@ -24,9 +24,13 @@ Required:
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/f4acd6fb-a9ae-4579-bb1b-bfc63df416af"/>
 </p>
 
-<p align="center">
+---
 
+## To do list 🚀
+
+<p align="center">
 満天の星空にほら
+</p>
 
 浮かべてみて明日のビジョン
 
@@ -41,14 +45,9 @@ Required:
 そこで会える　そこで会えるから
 
 だってきっと　世界は変わるから
-</p>
-
----
-
-## To do list 🚀
 
 #### 🌠 =======
-- [ ] PTBR translation 🟥
+- [ ] PTBR translation (by myself) 🟥
 - [ ] JP translation (not machine-translation; by myself) 🟦🐳
 - [ ] Better documentation 🟨
 
