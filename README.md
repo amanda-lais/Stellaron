@@ -1,5 +1,5 @@
-# Stellaron 🌌
-
+# About ⭐
+<br></br>
 <p align="center">
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/2f7226c4-0c6a-47b4-92a6-676580890cfb"/>
 </p>
@@ -12,7 +12,7 @@ Forked from my uni group's graph theory project for additional development both 
 
 ---
 
-## Screenshots
+## Screenshots 🌌
 
 <p align="center">
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/b278b3ce-9203-47c3-9f68-5f3c85f8775f"/>
@@ -22,7 +22,7 @@ Forked from my uni group's graph theory project for additional development both 
 
 ---
 
-## To do list
+## To do list 🚀
 
 #### 🌠 =======
 - [ ] PTBR translation 🟥
