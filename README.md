@@ -18,6 +18,18 @@ Required:
 
 ## Screenshots 🌌
 
+<center>
+満天の星空にほら　
+浮かべてみて明日のビジョン
+そこで見える　そこで見えるなら
+もっと飛べるよ
+満開の笑顔ならほら　
+歌ってみてこのトキメキ
+そこで会える　そこで会えるから
+だってきっと　世界は変わるから
+</center>
+
+
 <p align="center">
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/b278b3ce-9203-47c3-9f68-5f3c85f8775f"/>
   <img src="https://github.com/amanda-lais/Stellaron/assets/100282290/d635ceb4-46c5-439d-95cb-c23a52fb947c"/>
@@ -33,11 +45,13 @@ Required:
 - [ ] Better documentation 🟨
 
 #### 🌟 =======
-- [x] ~~Create graph from star/constellation info~~
+- [x] ~~Create graph from star/constellation info~~ 🐳
 - [ ] Add more presets for the graph that can be chosen on the menu 🟨
 - [ ] Better looking graph 🟩
 - [ ] Analysis of a graph's characteristics 🟧
 - [ ] Possibly add a skymap or some other visualization 🟩
+- [ ] Different color for Alpha star, maybe Beta and Gamma (if that applies) 🟨
+- [ ] Option to view without lines, just the stars 🟧⚡
 
 #### 🔭 =======
 - [x] ~~Add modern constellations~~
@@ -55,6 +69,7 @@ Required:
 - [ ] Detect location automatically 🟩
 
 #### ☄️ =======
+- [ ] Something with comets (今日もかわいい!!) 🟦
 - [ ] Quizzing about constellations 🟨
 - [ ] Some kind of SRS for constellations 🟦🐳
 - [ ] Generate constellation from a picture 🟦🐳
