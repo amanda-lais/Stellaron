@@ -33,14 +33,14 @@ Required:
 - [ ] Better documentation 🟨
 
 #### 🌟 =======
-- [x] Create graph from star/constellation info
+- [x] ~~Create graph from star/constellation info~~
 - [ ] Add more presets for the graph that can be chosen on the menu 🟨
 - [ ] Better looking graph 🟩
 - [ ] Analysis of a graph's characteristics 🟧
 - [ ] Possibly add a skymap or some other visualization 🟩
 
 #### 🔭 =======
-- [x] Add modern constellations
+- [x] ~~Add modern constellations~~
 - [ ] Add some non-modern constellations 🟨
 - [ ] Add some fictional constellations 🟩
 - [ ] Add asterisms 🟧
