@@ -1,0 +1,95 @@
+a {
+    color: rgb(216, 155, 0);
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+a:hover{
+    color: rgb(180, 93, 0);
+}
+
+header {
+    width: 100%;
+    display: block;
+    margin-bottom: 5vh;
+}
+
+header img {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 45vw;
+}
+
+html {
+    width: 100%;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    padding: 8vh 4vw 8vh 4vw;
+}
+
+.content {
+    display: table;
+    clear: both;
+    margin: auto;
+    padding: 3vh;
+    height: auto;
+    width: 74%;
+    background-color: white;
+    border-style: double;
+    border-color: black;
+    border-width: 1vh;
+    border-radius: 2.5%;
+    box-shadow: 2vw 4vh 3rem -3rem yellow;
+}
+
+.content img{
+    float: right;
+    width: 45%;
+}
+
+.content p {
+    width: 70%;
+    margin-right: 27rem;
+    margin-left: 2rem;
+}
+
+.content .content-text {
+    margin-top: 3rem;
+}
+
+.deco img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 2;
+    width: 40vh;
+}
+
+.name {
+    font-weight: bolder;
+}
+
+.description {
+    font-style: italic;
+}
+
+.link {
+    font-style: normal;
+}
+
+.fueled-by {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 6%;
+}
+
+.fueled-by, .git{
+    text-align: center;
+}
